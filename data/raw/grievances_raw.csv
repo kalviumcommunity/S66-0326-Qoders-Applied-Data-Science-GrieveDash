@@ -1,0 +1,6 @@
+complaint_id,category,status,junk_column
+101,water,open,null
+102,roads,closed,NaN
+103,water,closed,N/A
+104,electricity,open,null
+105,roads,in-progress,err
