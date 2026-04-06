@@ -1,7 +1,7 @@
 """
 Environment Setup Verification Script
 ======================================
-Run this script to verify that Python, Conda, and core
+Run this script to verify that Python, Conda, Jupyter, and core
 Data Science packages are properly installed and accessible.
 
 Usage:
@@ -37,20 +37,48 @@ def check_conda():
         return False
 
 
+def check_jupyter():
+    """Verify Jupyter is installed and accessible."""
+    jupyter_path = shutil.which("jupyter")
+    if jupyter_path:
+        result = subprocess.run(
+            ["jupyter", "notebook", "--version"], capture_output=True, text=True
+        )
+        version = result.stdout.strip()
+        print(f"✅ Jupyter Notebook: v{version}")
+        print(f"   Path: {jupyter_path}")
+
+        # Also check JupyterLab
+        result_lab = subprocess.run(
+            ["jupyter", "lab", "--version"], capture_output=True, text=True
+        )
+        lab_version = result_lab.stdout.strip()
+        if lab_version:
+            print(f"✅ JupyterLab: v{lab_version}")
+
+        return True
+    else:
+        print("❌ Jupyter: Not found in PATH")
+        print("   Install with: conda install jupyter notebook")
+        return False
+
+
 def check_packages():
     """Check availability of core Data Science packages."""
     packages = [
         ("numpy", "NumPy"),
         ("pandas", "Pandas"),
         ("matplotlib", "Matplotlib"),
+        ("seaborn", "Seaborn"),
         ("sklearn", "Scikit-learn"),
     ]
 
     all_ok = True
     for module, name in packages:
         try:
-            __import__(module)
-            print(f"✅ {name}: Available")
+            mod = __import__(module)
+            version = getattr(mod, "__version__", "unknown")
+            print(f"✅ {name}: v{version}")
         except ImportError:
             print(f"⚠️  {name}: Not installed (install with: conda install {module})")
             all_ok = False
@@ -58,9 +86,9 @@ def check_packages():
 
 
 def main():
-    print("=" * 50)
-    print("  Environment Setup Verification")
-    print("=" * 50)
+    print("=" * 55)
+    print("  GrieveDash — Environment Setup Verification")
+    print("=" * 55)
     print()
 
     print("--- Python ---")
@@ -71,16 +99,21 @@ def main():
     conda_ok = check_conda()
     print()
 
+    print("--- Jupyter ---")
+    jupyter_ok = check_jupyter()
+    print()
+
     print("--- Data Science Packages ---")
     packages_ok = check_packages()
     print()
 
-    print("=" * 50)
-    if conda_ok:
-        print("✅ Environment is ready for Data Science work!")
+    print("=" * 55)
+    all_ok = conda_ok and jupyter_ok and packages_ok
+    if all_ok:
+        print("✅ Environment is fully ready for Data Science work!")
     else:
         print("⚠️  Some components need attention. See above.")
-    print("=" * 50)
+    print("=" * 55)
 
 
 if __name__ == "__main__":
