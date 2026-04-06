@@ -285,3 +285,19 @@ S66-0326-Qoders-Applied-Data-Science-GrieveDash/
 - **`notebooks/`**: Exploratory Data Analysis (EDA), model training, and visual documentation.
 - **`scripts/`**: Reusable utility functions and production code.
 - **`outputs/`**: Final artifacts like generated visualizations and trained model binaries.
+
+---
+
+## 📓 Sprint Notebooks Overview
+
+All proof-of-work notebooks are stored in the `notebooks/` folder:
+
+| Notebook | Topic | Status |
+|---|---|---|
+| `proof_of_work.ipynb` | Python, Conda & Jupyter verification | ✅ |
+| `workspace_navigation_proof.ipynb` | Jupyter Home interface navigation | ✅ |
+| `code_vs_markdown_proof.ipynb` | Code vs Markdown cell usage | ✅ |
+| `kernel_control_proof.ipynb` | Running, restarting, interrupting kernels | ✅ |
+| `markdown_formatting_proof.ipynb` | Headings, lists, and code blocks in Markdown | ✅ |
+| `python_data_types.ipynb` | Numeric and string data types | ✅ |
+| `python_collections.ipynb` | Lists, tuples, and dictionaries | ✅ |
