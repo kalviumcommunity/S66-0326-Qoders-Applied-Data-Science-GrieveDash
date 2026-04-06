@@ -107,4 +107,147 @@ A `verify_setup.py` script is included to quickly validate that the environment 
 python verify_setup.py
 ```
 
-This script checks Python version, Conda availability, and key Data Science package imports.
+This script checks Python version, Conda availability, Jupyter installation, and key Data Science package imports.
+
+---
+
+## ✅ Milestone 2 — Verify Python, Conda & Jupyter
+
+### Python Verification
+
+Python 3.13.12 is installed via Miniconda and accessible from the terminal.
+
+```
+$ python --version
+Python 3.13.12
+
+$ python -c "import sys; print(sys.executable)"
+/Users/apple/miniconda3/bin/python
+```
+
+**REPL commands verified:**
+- Arithmetic operations (`2 + 3`, `10 / 3`)
+- String manipulation (`upper()`, `len()`, f-strings)
+- List comprehensions (`[x**2 for x in range(1, 6)]`)
+
+---
+
+### Conda Verification
+
+Conda 26.1.1 is installed and managing environments correctly.
+
+```
+$ conda --version
+conda 26.1.1
+
+$ conda info --envs
+# conda environments:
+#  * -> active
+base                  *  /Users/apple/miniconda3
+
+$ conda activate base
+# Environment activated successfully
+```
+
+---
+
+### Jupyter Verification
+
+Jupyter Notebook and JupyterLab are installed and launchable.
+
+```
+$ jupyter notebook --version
+7.5.5
+
+$ jupyter lab --version
+4.5.6
+
+$ jupyter --version
+Selected Jupyter core packages...
+IPython          : 9.11.0
+ipykernel        : 7.2.0
+ipywidgets       : 8.1.7
+jupyter_client   : 8.8.0
+jupyter_core     : 5.9.1
+jupyter_server   : 2.17.0
+jupyterlab       : 4.5.6
+nbclient         : 0.10.4
+nbconvert        : 7.17.0
+nbformat         : 5.10.4
+notebook         : 7.5.5
+qtconsole        : 5.7.1
+traitlets        : 5.14.3
+```
+
+To launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+To launch JupyterLab:
+
+```bash
+jupyter lab
+```
+
+---
+
+### Data Science Packages
+
+All core libraries are installed and verified:
+
+| Package       | Version  | Status |
+|---------------|----------|--------|
+| NumPy         | 2.4.4    | ✅     |
+| Pandas        | 3.0.1    | ✅     |
+| Matplotlib    | 3.10.8   | ✅     |
+| Seaborn       | 0.13.2   | ✅     |
+| Scikit-learn  | 1.8.0    | ✅     |
+
+---
+
+### Proof-of-Work Notebook
+
+A `proof_of_work.ipynb` notebook is included in this repository that demonstrates:
+
+1. **Python verification** — version info and REPL commands
+2. **Conda verification** — version and environment listing
+3. **Jupyter verification** — running inside a live notebook
+4. **Library imports** — NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn
+5. **Sample data analysis** — Pandas DataFrame with sample grievance data
+6. **Visualization** — Bar chart using Matplotlib comparing complaints vs resolved
+
+---
+
+### Full Verification Script Output
+
+```
+=======================================================
+  GrieveDash — Environment Setup Verification
+=======================================================
+
+--- Python ---
+✅ Python Version: 3.13.12
+   Path: /Users/apple/miniconda3/bin/python
+
+--- Conda ---
+✅ Conda: conda 26.1.1
+   Path: /Users/apple/miniconda3/bin/conda
+
+--- Jupyter ---
+✅ Jupyter Notebook: v7.5.5
+   Path: /Users/apple/miniconda3/bin/jupyter
+✅ JupyterLab: v4.5.6
+
+--- Data Science Packages ---
+✅ NumPy: v2.4.4
+✅ Pandas: v3.0.1
+✅ Matplotlib: v3.10.8
+✅ Seaborn: v0.13.2
+✅ Scikit-learn: v1.8.0
+
+=======================================================
+✅ Environment is fully ready for Data Science work!
+=======================================================
+```
