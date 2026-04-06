@@ -251,3 +251,37 @@ A `proof_of_work.ipynb` notebook is included in this repository that demonstrate
 ✅ Environment is fully ready for Data Science work!
 =======================================================
 ```
+
+---
+
+## 📁 Project Folder Structure
+
+A standard Data Science directory structure has been implemented to separate concerns, keep the workspace clean, and ensure reproducibility.
+
+```text
+S66-0326-Qoders-Applied-Data-Science-GrieveDash/
+│
+├── data/
+│   ├── raw/             # Immutable raw datasets (DO NOT EDIT)
+│   └── processed/       # Cleaned and transformed datasets
+│
+├── notebooks/           # Jupyter notebooks for exploration and analysis
+│   ├── proof_of_work.ipynb
+│   └── ...
+│
+├── scripts/             # Standalone Python scripts (.py)
+│   ├── verify_setup.py
+│   └── ...
+│
+├── outputs/             # Generated charts, reports, and models
+│
+├── environment.yml      # Conda environment definition
+└── README.md            # Project documentation
+```
+
+### Folder Roles
+- **`data/raw/`**: The absolute source of truth. Raw data is placed here and is treated as read-only to prevent accidental corruption.
+- **`data/processed/`**: Intermediate or finalized clean data that is ready for analysis and modeling.
+- **`notebooks/`**: Exploratory Data Analysis (EDA), model training, and visual documentation.
+- **`scripts/`**: Reusable utility functions and production code.
+- **`outputs/`**: Final artifacts like generated visualizations and trained model binaries.
