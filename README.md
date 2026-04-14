@@ -288,6 +288,22 @@ S66-0326-Qoders-Applied-Data-Science-GrieveDash/
 
 ---
 
+## ✅ Milestone — Conditional Statements for Data Logic
+
+Run the milestone demo script:
+
+```bash
+python scripts/conditional_logic_demo.py
+```
+
+This script includes:
+- Basic `if`
+- `if-else`
+- `if-elif-else`
+- Logical operators (`and`, `or`, `not`)
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
