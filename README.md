@@ -304,6 +304,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Loops for Iterative Data Processing
+
+Run the milestone demo script:
+
+```bash
+python scripts/loops_demo.py
+```
+
+This script includes:
+- `for` loops over range and list
+- `while` loop with a condition
+- `break` and `continue`
+- Infinite-loop prevention
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
