@@ -320,6 +320,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Defining and Calling Python Functions
+
+Run the milestone demo script:
+
+```bash
+python scripts/functions_demo.py
+```
+
+This script includes:
+- Defining functions with `def`
+- Calling functions and passing arguments
+- Parameters and return values
+- Basic function scope behavior
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
