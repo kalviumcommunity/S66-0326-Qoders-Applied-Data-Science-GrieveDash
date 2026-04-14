@@ -352,6 +352,21 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Readable Variable Names and Comments (PEP 8 Basics)
+
+Run the milestone demo script:
+
+```bash
+python scripts/readability_pep8_demo.py
+```
+
+This script includes:
+- Poor vs good variable naming examples
+- Useful comments that explain intent
+- Basic PEP 8 naming conventions
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
