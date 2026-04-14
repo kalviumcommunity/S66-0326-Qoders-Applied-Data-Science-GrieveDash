@@ -1,10 +1,9 @@
 """
 GrieveDash — First Python Data Analysis Script
 ================================================
-This standalone script performs simple data analysis on the sample
-grievance dataset. It demonstrates that Python scripts execute
-top-to-bottom, produce consistent terminal output, and are ideal
-for repeatable, automation-friendly workflows.
+This standalone script performs simple data analysis on the cleaned
+municipal grievance dataset. It demonstrates a repeatable pipeline
+that consumes processed CSV data end-to-end.
 
 Usage:
     python scripts/analyze_grievances.py
@@ -17,19 +16,19 @@ from collections import Counter
 # ─────────────────────────────────────────────
 # 1. CONFIGURATION
 # ─────────────────────────────────────────────
-RAW_DATA_PATH = "data/raw/grievances_raw.csv"
+PROCESSED_DATA_PATH = "data/processed/municipal_grievance_full_200_cleaned.csv"
 
 SEPARATOR = "=" * 55
 
 # ─────────────────────────────────────────────
-# 2. LOAD RAW DATA
+# 2. LOAD PROCESSED DATA
 # ─────────────────────────────────────────────
 def load_data(filepath):
-    """Read a CSV file and return a list of row dictionaries."""
+    """Read the cleaned CSV file and return a list of row dictionaries."""
     if not os.path.exists(filepath):
         raise FileNotFoundError(
-            f"Raw data not found at: {filepath}\n"
-            "Run scripts/generate_dummy_data.py first."
+            f"Processed data not found at: {filepath}\n"
+            "Run scripts/clean_grievances.py first."
         )
     with open(filepath, newline="") as f:
         reader = csv.DictReader(f)
@@ -45,10 +44,10 @@ def count_by_field(records, field):
 
 
 def resolution_rate(records):
-    """Calculate the percentage of complaints with status 'closed'."""
+    """Calculate the percentage of complaints with status 'resolved'."""
     total = len(records)
-    closed = sum(1 for r in records if r["status"] == "closed")
-    return round((closed / total) * 100, 1) if total else 0
+    resolved = sum(1 for r in records if r["status"] == "resolved")
+    return round((resolved / total) * 100, 1) if total else 0
 
 
 # ─────────────────────────────────────────────
@@ -62,10 +61,15 @@ def print_report(records):
 
     print(f"\n📋 Total Complaints : {len(records)}")
 
-    print("\n📊 Complaints by Category:")
-    for category, count in count_by_field(records, "category").most_common():
+    print("\n📊 Complaints by Issue Type:")
+    for category, count in count_by_field(records, "issue_type").most_common():
         bar = "█" * count
         print(f"   {category:<15} {bar}  ({count})")
+
+    print("\n📊 Complaints by Location:")
+    for location, count in count_by_field(records, "location").most_common():
+        bar = "█" * count
+        print(f"   {location:<15} {bar}  ({count})")
 
     print("\n📊 Complaints by Status:")
     for status, count in count_by_field(records, "status").most_common():
@@ -84,5 +88,5 @@ def print_report(records):
 # 5. ENTRY POINT
 # ─────────────────────────────────────────────
 if __name__ == "__main__":
-    records = load_data(RAW_DATA_PATH)
+    records = load_data(PROCESSED_DATA_PATH)
     print_report(records)

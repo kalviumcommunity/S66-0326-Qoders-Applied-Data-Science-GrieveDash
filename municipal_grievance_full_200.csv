@@ -1,0 +1,201 @@
+complaint_id,date,location,issue_type,status,priority,resolution_time
+1,2026-03-06,Ward 3,garbage,in_progress,low,0
+2,2026-01-17,Sector 15,garbage,pending,low,0
+3,2026-01-25,Sector 15,garbage,resolved,medium,12
+4,2025-04-16,Sector 15,garbage,in_progress,low,0
+5,2025-05-30,Ward 3,water,resolved,medium,5
+6,2025-10-23,Sector 15,garbage,resolved,medium,10
+7,2025-05-06,Ward 3,sewage,in_progress,low,0
+8,2025-09-02,Sector 15,roads,in_progress,low,0
+9,2026-03-28,Ward 3,sewage,resolved,medium,8
+10,2026-03-06,Sector 15,electricity,resolved,high,11
+11,2025-09-21,Ward 3,water,in_progress,high,0
+12,2026-03-14,Downtown,roads,resolved,medium,9
+13,2026-01-13,Sector 15,garbage,resolved,medium,10
+14,2025-12-29,Ward 3,roads,pending,low,0
+15,2025-11-15,Ward 3,sewage,in_progress,high,0
+16,2025-04-18,Sector 15,sewage,resolved,medium,9
+17,2025-09-10,Ward 3,water,pending,medium,0
+18,2025-07-13,Ward 7,roads,resolved,low,6
+19,2025-10-21,Downtown,garbage,resolved,medium,5
+20,2025-06-09,Sector 9,water,resolved,low,1
+21,2025-05-23,Sector 15,garbage,resolved,high,27
+22,2025-12-12,Ward 3,roads,resolved,medium,8
+23,2026-04-01,Sector 15,garbage,in_progress,medium,0
+24,2025-11-30,Ward 3,garbage,pending,low,0
+25,2025-04-16,Sector 15,garbage,pending,low,0
+26,2026-01-01,Ward 3,garbage,resolved,medium,14
+27,2025-12-11,Ward 3,water,pending,medium,0
+28,2025-05-10,Sector 15,sewage,resolved,low,6
+29,2025-08-18,Ward 3,garbage,resolved,medium,9
+30,2025-05-21,Sector 9,roads,resolved,low,6
+31,2025-05-30,Ward 3,garbage,resolved,low,4
+32,2025-04-14,Ward 3,water,resolved,medium,11
+33,2026-01-22,Sector 15,sewage,in_progress,low,0
+34,2026-01-15,Sector 15,garbage,pending,medium,0
+35,2025-07-02,Ward 7,garbage,pending,low,0
+36,2025-08-11,Ward 3,water,resolved,low,5
+37,2026-03-15,Sector 15,sewage,in_progress,low,0
+38,2025-08-26,Ward 3,water,resolved,medium,244
+39,2025-05-20,Ward 3,roads,in_progress,high,0
+40,2025-10-19,Ward 3,garbage,resolved,medium,14
+41,2026-01-08,Sector 15,garbage,resolved,high,13
+42,2025-06-11,Sector 15,garbage,in_progress,low,0
+43,2026-03-30,Sector 9,sewage,resolved,low,7
+44,2025-09-01,Ward 3,garbage,resolved,medium,9
+45,2026-04-09,Sector 15,water,pending,high,0
+46,2025-05-01,Sector 15,water,pending,low,0
+47,2025-05-03,Ward 3,water,in_progress,low,0
+48,2025-11-07,Sector 15,sewage,resolved,low,2
+49,2025-11-10,Ward 3,garbage,resolved,medium,11
+50,2025-08-18,Ward 3,garbage,resolved,low,1
+51,2025-12-04,Downtown,water,resolved,low,1
+52,2025-09-02,Ward 7,garbage,in_progress,medium,0
+53,2026-01-12,Ward 7,water,pending,high,0
+54,2025-08-26,Ward 3,garbage,resolved,medium,10
+55,2025-06-11,Sector 9,water,in_progress,low,0
+56,2026-01-13,Sector 15,sewage,resolved,medium,10
+57,2025-09-29,Downtown,sewage,resolved,medium,9
+58,2025-09-27,Sector 15,water,resolved,low,6
+59,2025-07-11,Sector 15,sewage,resolved,high,19
+60,2026-02-03,Sector 15,sewage,resolved,medium,8
+61,2025-07-08,Ward 3,sewage,resolved,medium,10
+62,2025-08-11,Downtown,sewage,resolved,low,1
+63,2025-05-20,Downtown,roads,resolved,low,6
+64,2025-06-27,Sector 15,sewage,resolved,high,13
+65,2026-04-04,Downtown,roads,resolved,high,13
+66,2026-03-20,Ward 7,roads,resolved,high,24
+67,2025-12-27,Sector 9,water,resolved,high,25
+68,2026-03-05,Sector 9,garbage,resolved,medium,9
+69,2025-08-11,Downtown,garbage,resolved,low,2
+70,2026-04-09,Ward 3,garbage,resolved,medium,11
+71,2025-10-29,Ward 7,sewage,pending,high,0
+72,2025-10-10,Sector 9,garbage,resolved,high,23
+73,2026-02-15,Downtown,garbage,in_progress,medium,0
+74,2025-11-06,Ward 3,electricity,resolved,low,5
+75,2026-02-10,Sector 15,sewage,pending,medium,0
+76,2025-08-24,Downtown,water,resolved,low,4
+77,2025-11-14,Sector 9,garbage,resolved,medium,5
+78,2026-03-11,Sector 9,garbage,resolved,,8
+79,2025-06-30,Ward 3,garbage,resolved,medium,8
+80,2025-10-18,Sector 15,garbage,resolved,medium,7
+81,2025-04-26,Sector 15,garbage,resolved,low,6
+82,2026-02-28,Ward 3,garbage,resolved,high,29
+83,2026-01-27,Downtown,garbage,resolved,,5
+84,2025-11-14,Ward 3,roads,resolved,medium,12
+85,2026-01-05,Ward 3,sewage,resolved,medium,12
+86,2026-02-10,Downtown,garbage,in_progress,high,0
+87,2025-12-06,Sector 15,sewage,in_progress,low,0
+88,2025-07-30,Sector 9,water,in_progress,high,0
+89,2025-04-18,Ward 7,roads,pending,medium,0
+90,2026-04-01,Sector 15,roads,resolved,medium,6
+91,2025-08-15,Sector 15,garbage,in_progress,medium,0
+92,2026-01-19,Downtown,water,resolved,low,2
+93,2025-06-13,Downtown,electricity,resolved,low,2
+94,2026-02-08,Sector 15,roads,resolved,high,19
+95,2025-04-20,Downtown,electricity,in_progress,high,0
+96,2025-06-16,Sector 9,sewage,resolved,high,28
+97,2025-10-04,Ward 7,garbage,in_progress,high,0
+98,2025-12-20,Sector 15,garbage,resolved,low,7
+99,2025-08-18,Sector 15,garbage,resolved,medium,14
+100,2025-11-29,Ward 3,roads,resolved,medium,14
+101,2025-06-02,Sector 15,garbage,in_progress,low,0
+102,2025-07-02,Downtown,garbage,resolved,medium,5
+103,2026-04-07,Ward 3,roads,in_progress,low,0
+104,2025-07-23,Ward 3,water,in_progress,low,0
+105,2025-05-13,Sector 9,garbage,resolved,high,19
+106,2025-09-15,Downtown,electricity,in_progress,medium,0
+107,2025-11-20,Downtown,electricity,in_progress,low,0
+108,2026-02-01,Ward 7,sewage,resolved,medium,9
+109,2025-07-11,Downtown,roads,resolved,low,5
+110,2025-05-29,Downtown,roads,in_progress,medium,0
+111,2026-04-03,Ward 3,roads,resolved,high,27
+112,2025-08-20,Ward 3,water,resolved,high,10
+113,2025-11-10,Ward 3,garbage,in_progress,medium,0
+114,2025-07-26,Downtown,garbage,resolved,medium,12
+115,2026-02-18,Sector 15,garbage,in_progress,low,0
+116,2025-06-10,Ward 7,roads,resolved,low,6
+117,2025-11-11,Ward 7,roads,in_progress,medium,0
+118,2025-12-29,Sector 9,electricity,resolved,low,7
+119,2025-12-28,Sector 9,garbage,in_progress,low,0
+120,2025-12-19,Downtown,garbage,resolved,low,7
+121,2025-09-24,Ward 7,garbage,in_progress,low,0
+122,2025-09-22,Downtown,electricity,resolved,low,6
+123,2025-06-29,Ward 7,roads,pending,high,0
+124,2025-11-24,Downtown,garbage,resolved,medium,11
+125,2025-05-21,Sector 9,roads,in_progress,medium,0
+126,2025-09-28,Sector 9,sewage,in_progress,low,0
+127,2026-01-15,Sector 15,garbage,in_progress,medium,0
+128,2025-05-29,Ward 7,water,resolved,medium,6
+129,2025-04-27,Downtown,garbage,pending,low,0
+130,2025-11-09,Sector 15,sewage,in_progress,low,0
+131,2026-03-28,Downtown,garbage,resolved,low,6
+132,2025-04-17,Ward 7,roads,resolved,low,4
+133,2025-09-13,Ward 7,sewage,resolved,medium,9
+134,2025-12-16,Ward 3,garbage,resolved,medium,9
+135,2025-11-01,Ward 3,garbage,resolved,medium,5
+136,2025-09-06,Sector 15,garbage,in_progress,medium,0
+137,2026-03-16,Sector 9,sewage,resolved,high,30
+138,2025-04-30,Downtown,sewage,pending,high,0
+139,2025-07-24,Sector 9,garbage,resolved,low,5
+140,2025-08-22,Ward 7,roads,in_progress,high,0
+141,2025-05-21,Sector 9,garbage,in_progress,medium,0
+142,2026-01-23,Ward 3,water,in_progress,low,0
+143,2026-03-23,Sector 15,garbage,resolved,high,13
+144,2026-02-24,Downtown,roads,resolved,medium,15
+145,2025-09-14,Downtown,sewage,pending,high,0
+146,2025-06-01,Sector 9,garbage,pending,medium,0
+147,2026-01-14,Sector 15,water,resolved,high,30
+148,2025-11-07,Ward 3,garbage,in_progress,medium,0
+149,2025-06-02,Downtown,sewage,resolved,medium,5
+150,2025-06-14,Ward 3,roads,in_progress,medium,0
+151,2025-09-30,Ward 7,garbage,resolved,low,7
+152,2025-08-01,Downtown,garbage,pending,high,137
+153,2026-01-14,Sector 9,garbage,pending,high,0
+154,2025-08-12,Downtown,sewage,in_progress,low,0
+155,2025-05-15,Downtown,roads,in_progress,medium,0
+156,2026-02-21,Sector 15,garbage,resolved,medium,9
+157,2025-05-14,Sector 9,roads,resolved,low,6
+158,2025-05-24,Sector 15,water,pending,low,0
+159,2025-09-26,Ward 7,water,resolved,medium,14
+160,2025-06-10,Sector 15,sewage,resolved,medium,8
+161,2025-11-10,Sector 9,water,in_progress,medium,0
+162,2025-08-21,Ward 7,water,resolved,medium,6
+163,2025-06-01,Sector 15,electricity,resolved,medium,14
+164,2026-03-22,Downtown,garbage,resolved,high,23
+165,2025-09-07,Downtown,sewage,pending,medium,0
+166,2025-06-07,Sector 9,water,in_progress,medium,0
+167,2026-01-25,Sector 15,sewage,resolved,low,6
+168,2025-07-14,Sector 15,garbage,in_progress,low,136
+169,2025-11-04,Ward 3,garbage,resolved,low,6
+170,2025-12-01,Ward 3,water,in_progress,low,0
+171,2025-05-09,Ward 3,garbage,resolved,medium,9
+172,2026-02-17,Downtown,roads,in_progress,medium,0
+173,2026-03-26,Sector 15,sewage,resolved,low,2
+174,2025-04-16,Downtown,garbage,in_progress,low,0
+175,2025-04-16,Sector 15,roads,in_progress,low,0
+176,2026-03-21,Ward 3,water,resolved,low,1
+177,2025-09-20,Downtown,sewage,resolved,,9
+178,2025-09-26,Sector 9,garbage,resolved,high,21
+179,2025-08-15,Sector 15,water,resolved,low,3
+180,2025-07-08,Downtown,garbage,pending,medium,0
+181,2026-03-09,Ward 3,garbage,pending,low,0
+182,2026-03-14,Ward 3,garbage,resolved,medium,14
+183,2026-01-27,Sector 15,sewage,resolved,high,30
+184,2025-12-09,Sector 15,roads,resolved,medium,10
+185,2025-11-30,Ward 3,garbage,resolved,low,7
+186,2026-02-11,Downtown,roads,resolved,high,11
+187,2026-03-12,Downtown,garbage,resolved,low,1
+188,2025-10-05,Ward 3,electricity,resolved,low,6
+189,2026-01-05,Ward 3,sewage,in_progress,low,0
+190,2026-02-13,Sector 9,garbage,resolved,low,1
+191,2025-08-20,Sector 9,electricity,resolved,medium,7
+192,2025-06-24,Downtown,water,resolved,medium,7
+193,2025-09-18,Downtown,roads,resolved,high,26
+194,2025-12-29,Ward 3,water,in_progress,high,0
+195,2025-07-20,Ward 7,garbage,in_progress,low,0
+196,2026-01-14,Sector 9,electricity,pending,low,0
+197,2025-10-22,Ward 3,garbage,resolved,medium,7
+198,2025-10-16,Sector 15,sewage,resolved,medium,12
+199,2025-12-09,Downtown,garbage,resolved,high,24
+200,2025-12-26,Downtown,roads,in_progress,low,0

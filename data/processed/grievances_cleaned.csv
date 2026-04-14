@@ -1,6 +1,0 @@
-complaint_id,category,status
-101,water,open
-102,roads,closed
-103,water,closed
-104,electricity,open
-105,roads,in-progress

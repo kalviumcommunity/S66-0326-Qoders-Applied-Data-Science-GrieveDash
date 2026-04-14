@@ -1,0 +1,201 @@
+complaint_id,date,location,issue_type,status,priority,resolution_time
+32,2025-04-14,ward 3,water,resolved,medium,11
+4,2025-04-16,sector 15,garbage,in_progress,low,0
+25,2025-04-16,sector 15,garbage,pending,low,0
+174,2025-04-16,downtown,garbage,in_progress,low,0
+175,2025-04-16,sector 15,roads,in_progress,low,0
+132,2025-04-17,ward 7,roads,resolved,low,4
+16,2025-04-18,sector 15,sewage,resolved,medium,9
+89,2025-04-18,ward 7,roads,pending,medium,0
+95,2025-04-20,downtown,electricity,in_progress,high,0
+81,2025-04-26,sector 15,garbage,resolved,low,6
+129,2025-04-27,downtown,garbage,pending,low,0
+138,2025-04-30,downtown,sewage,pending,high,0
+46,2025-05-01,sector 15,water,pending,low,0
+47,2025-05-03,ward 3,water,in_progress,low,0
+7,2025-05-06,ward 3,sewage,in_progress,low,0
+171,2025-05-09,ward 3,garbage,resolved,medium,9
+28,2025-05-10,sector 15,sewage,resolved,low,6
+105,2025-05-13,sector 9,garbage,resolved,high,19
+157,2025-05-14,sector 9,roads,resolved,low,6
+155,2025-05-15,downtown,roads,in_progress,medium,0
+39,2025-05-20,ward 3,roads,in_progress,high,0
+63,2025-05-20,downtown,roads,resolved,low,6
+30,2025-05-21,sector 9,roads,resolved,low,6
+125,2025-05-21,sector 9,roads,in_progress,medium,0
+141,2025-05-21,sector 9,garbage,in_progress,medium,0
+21,2025-05-23,sector 15,garbage,resolved,high,27
+158,2025-05-24,sector 15,water,pending,low,0
+110,2025-05-29,downtown,roads,in_progress,medium,0
+128,2025-05-29,ward 7,water,resolved,medium,6
+5,2025-05-30,ward 3,water,resolved,medium,5
+31,2025-05-30,ward 3,garbage,resolved,low,4
+146,2025-06-01,sector 9,garbage,pending,medium,0
+163,2025-06-01,sector 15,electricity,resolved,medium,14
+101,2025-06-02,sector 15,garbage,in_progress,low,0
+149,2025-06-02,downtown,sewage,resolved,medium,5
+166,2025-06-07,sector 9,water,in_progress,medium,0
+20,2025-06-09,sector 9,water,resolved,low,1
+116,2025-06-10,ward 7,roads,resolved,low,6
+160,2025-06-10,sector 15,sewage,resolved,medium,8
+42,2025-06-11,sector 15,garbage,in_progress,low,0
+55,2025-06-11,sector 9,water,in_progress,low,0
+93,2025-06-13,downtown,electricity,resolved,low,2
+150,2025-06-14,ward 3,roads,in_progress,medium,0
+96,2025-06-16,sector 9,sewage,resolved,high,28
+192,2025-06-24,downtown,water,resolved,medium,7
+64,2025-06-27,sector 15,sewage,resolved,high,13
+123,2025-06-29,ward 7,roads,pending,high,0
+79,2025-06-30,ward 3,garbage,resolved,medium,8
+35,2025-07-02,ward 7,garbage,pending,low,0
+102,2025-07-02,downtown,garbage,resolved,medium,5
+61,2025-07-08,ward 3,sewage,resolved,medium,10
+180,2025-07-08,downtown,garbage,pending,medium,0
+59,2025-07-11,sector 15,sewage,resolved,high,19
+109,2025-07-11,downtown,roads,resolved,low,5
+18,2025-07-13,ward 7,roads,resolved,low,6
+168,2025-07-14,sector 15,garbage,in_progress,low,0
+195,2025-07-20,ward 7,garbage,in_progress,low,0
+104,2025-07-23,ward 3,water,in_progress,low,0
+139,2025-07-24,sector 9,garbage,resolved,low,5
+114,2025-07-26,downtown,garbage,resolved,medium,12
+88,2025-07-30,sector 9,water,in_progress,high,0
+152,2025-08-01,downtown,garbage,pending,high,0
+36,2025-08-11,ward 3,water,resolved,low,5
+62,2025-08-11,downtown,sewage,resolved,low,1
+69,2025-08-11,downtown,garbage,resolved,low,2
+154,2025-08-12,downtown,sewage,in_progress,low,0
+91,2025-08-15,sector 15,garbage,in_progress,medium,0
+179,2025-08-15,sector 15,water,resolved,low,3
+29,2025-08-18,ward 3,garbage,resolved,medium,9
+50,2025-08-18,ward 3,garbage,resolved,low,1
+99,2025-08-18,sector 15,garbage,resolved,medium,14
+112,2025-08-20,ward 3,water,resolved,high,10
+191,2025-08-20,sector 9,electricity,resolved,medium,7
+162,2025-08-21,ward 7,water,resolved,medium,6
+140,2025-08-22,ward 7,roads,in_progress,high,0
+76,2025-08-24,downtown,water,resolved,low,4
+38,2025-08-26,ward 3,water,resolved,medium,244
+54,2025-08-26,ward 3,garbage,resolved,medium,10
+44,2025-09-01,ward 3,garbage,resolved,medium,9
+8,2025-09-02,sector 15,roads,in_progress,low,0
+52,2025-09-02,ward 7,garbage,in_progress,medium,0
+136,2025-09-06,sector 15,garbage,in_progress,medium,0
+165,2025-09-07,downtown,sewage,pending,medium,0
+17,2025-09-10,ward 3,water,pending,medium,0
+133,2025-09-13,ward 7,sewage,resolved,medium,9
+145,2025-09-14,downtown,sewage,pending,high,0
+106,2025-09-15,downtown,electricity,in_progress,medium,0
+193,2025-09-18,downtown,roads,resolved,high,26
+177,2025-09-20,downtown,sewage,resolved,medium,9
+11,2025-09-21,ward 3,water,in_progress,high,0
+122,2025-09-22,downtown,electricity,resolved,low,6
+121,2025-09-24,ward 7,garbage,in_progress,low,0
+159,2025-09-26,ward 7,water,resolved,medium,14
+178,2025-09-26,sector 9,garbage,resolved,high,21
+58,2025-09-27,sector 15,water,resolved,low,6
+126,2025-09-28,sector 9,sewage,in_progress,low,0
+57,2025-09-29,downtown,sewage,resolved,medium,9
+151,2025-09-30,ward 7,garbage,resolved,low,7
+97,2025-10-04,ward 7,garbage,in_progress,high,0
+188,2025-10-05,ward 3,electricity,resolved,low,6
+72,2025-10-10,sector 9,garbage,resolved,high,23
+198,2025-10-16,sector 15,sewage,resolved,medium,12
+80,2025-10-18,sector 15,garbage,resolved,medium,7
+40,2025-10-19,ward 3,garbage,resolved,medium,14
+19,2025-10-21,downtown,garbage,resolved,medium,5
+197,2025-10-22,ward 3,garbage,resolved,medium,7
+6,2025-10-23,sector 15,garbage,resolved,medium,10
+71,2025-10-29,ward 7,sewage,pending,high,0
+135,2025-11-01,ward 3,garbage,resolved,medium,5
+169,2025-11-04,ward 3,garbage,resolved,low,6
+74,2025-11-06,ward 3,electricity,resolved,low,5
+48,2025-11-07,sector 15,sewage,resolved,low,2
+148,2025-11-07,ward 3,garbage,in_progress,medium,0
+130,2025-11-09,sector 15,sewage,in_progress,low,0
+49,2025-11-10,ward 3,garbage,resolved,medium,11
+113,2025-11-10,ward 3,garbage,in_progress,medium,0
+161,2025-11-10,sector 9,water,in_progress,medium,0
+117,2025-11-11,ward 7,roads,in_progress,medium,0
+77,2025-11-14,sector 9,garbage,resolved,medium,5
+84,2025-11-14,ward 3,roads,resolved,medium,12
+15,2025-11-15,ward 3,sewage,in_progress,high,0
+107,2025-11-20,downtown,electricity,in_progress,low,0
+124,2025-11-24,downtown,garbage,resolved,medium,11
+100,2025-11-29,ward 3,roads,resolved,medium,14
+24,2025-11-30,ward 3,garbage,pending,low,0
+185,2025-11-30,ward 3,garbage,resolved,low,7
+170,2025-12-01,ward 3,water,in_progress,low,0
+51,2025-12-04,downtown,water,resolved,low,1
+87,2025-12-06,sector 15,sewage,in_progress,low,0
+184,2025-12-09,sector 15,roads,resolved,medium,10
+199,2025-12-09,downtown,garbage,resolved,high,24
+27,2025-12-11,ward 3,water,pending,medium,0
+22,2025-12-12,ward 3,roads,resolved,medium,8
+134,2025-12-16,ward 3,garbage,resolved,medium,9
+120,2025-12-19,downtown,garbage,resolved,low,7
+98,2025-12-20,sector 15,garbage,resolved,low,7
+200,2025-12-26,downtown,roads,in_progress,low,0
+67,2025-12-27,sector 9,water,resolved,high,25
+119,2025-12-28,sector 9,garbage,in_progress,low,0
+14,2025-12-29,ward 3,roads,pending,low,0
+118,2025-12-29,sector 9,electricity,resolved,low,7
+194,2025-12-29,ward 3,water,in_progress,high,0
+26,2026-01-01,ward 3,garbage,resolved,medium,14
+85,2026-01-05,ward 3,sewage,resolved,medium,12
+189,2026-01-05,ward 3,sewage,in_progress,low,0
+41,2026-01-08,sector 15,garbage,resolved,high,13
+53,2026-01-12,ward 7,water,pending,high,0
+13,2026-01-13,sector 15,garbage,resolved,medium,10
+56,2026-01-13,sector 15,sewage,resolved,medium,10
+147,2026-01-14,sector 15,water,resolved,high,30
+153,2026-01-14,sector 9,garbage,pending,high,0
+196,2026-01-14,sector 9,electricity,pending,low,0
+34,2026-01-15,sector 15,garbage,pending,medium,0
+127,2026-01-15,sector 15,garbage,in_progress,medium,0
+2,2026-01-17,sector 15,garbage,pending,low,0
+92,2026-01-19,downtown,water,resolved,low,2
+33,2026-01-22,sector 15,sewage,in_progress,low,0
+142,2026-01-23,ward 3,water,in_progress,low,0
+3,2026-01-25,sector 15,garbage,resolved,medium,12
+167,2026-01-25,sector 15,sewage,resolved,low,6
+83,2026-01-27,downtown,garbage,resolved,medium,5
+183,2026-01-27,sector 15,sewage,resolved,high,30
+108,2026-02-01,ward 7,sewage,resolved,medium,9
+60,2026-02-03,sector 15,sewage,resolved,medium,8
+94,2026-02-08,sector 15,roads,resolved,high,19
+75,2026-02-10,sector 15,sewage,pending,medium,0
+86,2026-02-10,downtown,garbage,in_progress,high,0
+186,2026-02-11,downtown,roads,resolved,high,11
+190,2026-02-13,sector 9,garbage,resolved,low,1
+73,2026-02-15,downtown,garbage,in_progress,medium,0
+172,2026-02-17,downtown,roads,in_progress,medium,0
+115,2026-02-18,sector 15,garbage,in_progress,low,0
+156,2026-02-21,sector 15,garbage,resolved,medium,9
+144,2026-02-24,downtown,roads,resolved,medium,15
+82,2026-02-28,ward 3,garbage,resolved,high,29
+68,2026-03-05,sector 9,garbage,resolved,medium,9
+1,2026-03-06,ward 3,garbage,in_progress,low,0
+10,2026-03-06,sector 15,electricity,resolved,high,11
+181,2026-03-09,ward 3,garbage,pending,low,0
+78,2026-03-11,sector 9,garbage,resolved,medium,8
+187,2026-03-12,downtown,garbage,resolved,low,1
+12,2026-03-14,downtown,roads,resolved,medium,9
+182,2026-03-14,ward 3,garbage,resolved,medium,14
+37,2026-03-15,sector 15,sewage,in_progress,low,0
+137,2026-03-16,sector 9,sewage,resolved,high,30
+66,2026-03-20,ward 7,roads,resolved,high,24
+176,2026-03-21,ward 3,water,resolved,low,1
+164,2026-03-22,downtown,garbage,resolved,high,23
+143,2026-03-23,sector 15,garbage,resolved,high,13
+173,2026-03-26,sector 15,sewage,resolved,low,2
+9,2026-03-28,ward 3,sewage,resolved,medium,8
+131,2026-03-28,downtown,garbage,resolved,low,6
+43,2026-03-30,sector 9,sewage,resolved,low,7
+23,2026-04-01,sector 15,garbage,in_progress,medium,0
+90,2026-04-01,sector 15,roads,resolved,medium,6
+111,2026-04-03,ward 3,roads,resolved,high,27
+65,2026-04-04,downtown,roads,resolved,high,13
+103,2026-04-07,ward 3,roads,in_progress,low,0
+45,2026-04-09,sector 15,water,pending,high,0
+70,2026-04-09,ward 3,garbage,resolved,medium,11
