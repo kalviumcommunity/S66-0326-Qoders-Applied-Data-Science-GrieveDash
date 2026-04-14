@@ -336,6 +336,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Passing Data into Functions and Returning Results
+
+Run the milestone demo script:
+
+```bash
+python scripts/function_io_demo.py
+```
+
+This script includes:
+- Function parameters and arguments
+- Returning values with `return`
+- Using returned values in later logic
+- Clear input/output behavior
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
