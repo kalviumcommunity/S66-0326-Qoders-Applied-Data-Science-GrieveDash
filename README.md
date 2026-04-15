@@ -398,6 +398,21 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Understanding Array Shape, Dimensions, and Index Positions
+
+Run the milestone demo script:
+
+```bash
+python scripts/numpy_shape_index_demo.py
+```
+
+This script includes:
+- 1D and 2D array shapes and ndim
+- Indexing examples for rows/columns
+- Layout visualization with simple prints
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
