@@ -492,6 +492,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Loading CSV Data into Pandas DataFrames
+
+Run the milestone demo script:
+
+```bash
+python scripts/pandas_csv_loading_demo.py
+```
+
+This script includes:
+- Loading CSV into a DataFrame
+- Previewing rows with `head`
+- Inspecting `shape`, `columns`, and `dtypes`
+- Checking missing/extra columns
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
