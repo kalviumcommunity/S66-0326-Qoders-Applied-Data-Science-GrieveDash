@@ -429,6 +429,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Applying Vectorized Operations Instead of Python Loops
+
+Run the milestone demo script:
+
+```bash
+python scripts/numpy_vectorization_demo.py
+```
+
+This script includes:
+- Loop-based vs vectorized arithmetic
+- Vectorized comparisons and boolean outputs
+- Output matching check for correctness
+- Shape compatibility reminder
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
