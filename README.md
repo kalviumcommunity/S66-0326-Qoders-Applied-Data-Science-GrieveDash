@@ -382,6 +382,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Creating NumPy Arrays from Python Lists
+
+Run the milestone demo script:
+
+```bash
+python scripts/numpy_arrays_demo.py
+```
+
+This script includes:
+- Creating 1D and 2D arrays from lists
+- Inspecting shape, dtype, and ndim
+- Basic element-wise operations
+- Comparison of list vs array behavior
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
