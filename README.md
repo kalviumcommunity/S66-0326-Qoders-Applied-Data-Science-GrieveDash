@@ -367,6 +367,21 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Structuring Python Code for Readability and Reuse
+
+Run the milestone demo script:
+
+```bash
+python scripts/structure_demo.py
+```
+
+This script includes:
+- Clear sections (config, helpers, core logic, execution)
+- Reusable functions to avoid repetition
+- Clean top-level execution flow
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
