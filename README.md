@@ -508,6 +508,21 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Inspecting DataFrames Using head(), info(), and describe()
+
+Run the milestone demo script:
+
+```bash
+python scripts/pandas_inspection_demo.py
+```
+
+This script includes:
+- `head()` for row preview
+- `info()` for structure, dtypes, and non-null counts
+- `describe()` for summary statistics
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
