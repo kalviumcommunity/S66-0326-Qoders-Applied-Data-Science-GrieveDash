@@ -477,6 +477,21 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Creating Pandas DataFrames from Dictionaries and Files
+
+Run the milestone demo script:
+
+```bash
+python scripts/pandas_dataframe_creation_demo.py
+```
+
+This script includes:
+- Creating a DataFrame from a Python dictionary
+- Loading a DataFrame from CSV (`data/raw/municipal_grievance_full_200.csv`)
+- Inspecting `head`, `shape`, `columns`, and `dtypes`
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
