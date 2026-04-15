@@ -445,6 +445,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Understanding NumPy Broadcasting with Simple Examples
+
+Run the milestone demo script:
+
+```bash
+python scripts/numpy_broadcasting_demo.py
+```
+
+This script includes:
+- Scalar-to-array broadcasting
+- 1D array broadcasting (compatible and incompatible cases)
+- 2D and 1D broadcasting with shape inspection
+- Simple error handling for shape mismatch
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
