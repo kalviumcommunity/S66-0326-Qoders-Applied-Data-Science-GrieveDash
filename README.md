@@ -461,6 +461,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Creating Pandas Series from Lists and Arrays
+
+Run the milestone demo script:
+
+```bash
+python scripts/pandas_series_demo.py
+```
+
+This script includes:
+- Creating Series from Python lists
+- Creating Series from NumPy arrays
+- Inspecting Series index and values
+- Label-based and position-based access
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
