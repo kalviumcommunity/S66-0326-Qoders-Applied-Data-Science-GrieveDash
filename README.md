@@ -413,6 +413,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Performing Basic Mathematical Operations on NumPy Arrays
+
+Run the milestone demo script:
+
+```bash
+python scripts/numpy_math_ops_demo.py
+```
+
+This script includes:
+- Element-wise add/subtract/multiply/divide
+- Scalar operations on arrays
+- List vs array arithmetic behavior
+- Note on compatible shapes
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
