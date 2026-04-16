@@ -539,6 +539,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Detecting Missing Values in DataFrames
+
+Run the milestone demo script:
+
+```bash
+python scripts/pandas_missing_values_demo.py
+```
+
+This script includes:
+- Detecting missing values with `isnull()` and `isna()`
+- Counting missing values per column
+- Checking for any missing values with `any()`
+- Detecting non-missing values with `notnull()`
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
