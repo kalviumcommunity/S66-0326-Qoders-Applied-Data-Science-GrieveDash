@@ -523,6 +523,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Selecting Rows and Columns Using Indexing and Slicing
+
+Run the milestone demo script:
+
+```bash
+python scripts/pandas_indexing_slicing_demo.py
+```
+
+This script includes:
+- Column selection (single and multiple)
+- Row slicing using `[]`
+- Selection with `.iloc` (position-based)
+- Selection with `.loc` (label-based)
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
