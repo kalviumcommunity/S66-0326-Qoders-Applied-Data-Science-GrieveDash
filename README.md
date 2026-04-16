@@ -586,6 +586,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Standardizing Column Names and Data Formats
+
+Run the milestone demo script:
+
+```bash
+python scripts/pandas_standardize_demo.py
+```
+
+This script includes:
+- Standardizing column names (stripping, lowercasing, replacing spaces)
+- Formatting string data (stripping whitespace)
+- Converting data types (e.g., to datetime or numeric)
+- Inspecting results with `info()` and `head()`
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
