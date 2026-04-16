@@ -618,6 +618,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Comparing Distributions Across Multiple Columns
+
+Run the milestone demo script:
+
+```bash
+python scripts/pandas_compare_distributions_demo.py
+```
+
+This script includes:
+- Summary statistics for multiple numeric columns
+- Comparing relative frequency distributions for categorical columns
+- Cross-tabulation using `pd.crosstab()`
+- Normalizing distributions for comparative analysis
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
