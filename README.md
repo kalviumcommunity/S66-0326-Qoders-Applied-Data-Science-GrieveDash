@@ -698,6 +698,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Detecting Outliers Using Visual Inspection and Simple Rules
+
+Run the milestone demo script:
+
+```bash
+python scripts/pandas_outliers_demo.py
+```
+
+This script includes:
+- Visual inspection for outliers using boxplots and scatter plots
+- Implementation of the Interquartile Range (IQR) method
+- Calculating lower and upper bounds for outlier detection
+- Identifying and filtering anomalous records in a dataset
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
