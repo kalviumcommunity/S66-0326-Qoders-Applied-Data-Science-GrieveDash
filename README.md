@@ -634,6 +634,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Visualizing Data Distributions Using Histograms
+
+Run the milestone demo script:
+
+```bash
+python scripts/matplotlib_histograms_demo.py
+```
+
+This script includes:
+- Generating basic histograms with Matplotlib
+- Customizing bins, colors, and labels
+- Using Seaborn for distribution plots with KDE
+- Saving visualizations as PNG files in `outputs/`
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
