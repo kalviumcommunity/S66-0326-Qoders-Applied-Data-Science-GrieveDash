@@ -714,6 +714,36 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Writing Final Project Insights, Assumptions, and Limitations in README
+
+This milestone involves:
+- Summarizing key data discovery insights (e.g., trends and efficiencies)
+- Explicitly stating data processing assumptions
+- Acknowledging limitations such as sample size and temporal scope
+- Consolidating findings into the project documentation (`README.md`)
+
+---
+
+## 📈 Final Project Insights, Assumptions, and Limitations
+
+### 💡 Key Insights
+- **Grievance Trends:** Analysis of the `complaint_date` revealed specific periods with higher grievance filings, helping municipal authorities plan resource allocation.
+- **Resolution Efficiency:** By inspecting `resolution_time` across different `ward` locations, we identified sectors that handle grievances more efficiently than others.
+- **Common Issues:** The frequency distribution of `issue_type` shows that 'garbage' and 'water supply' related complaints are the most common in the provided dataset.
+- **Data Quality:** Implementing duplicate removal and missing value handling significantly improved the reliability of summary statistics.
+
+### 📋 Assumptions
+- **Source of Truth:** It is assumed that the `municipal_grievance_full_200.csv` file in the `data/raw/` directory contains accurate historical records.
+- **Time Representation:** For pending or in-progress complaints, a `resolution_time` of 0 is assumed to represent "not yet resolved" rather than "resolved instantly."
+- **Standardization:** It is assumed that standardizing column names to snake_case and stripping whitespace ensures consistency across all processing scripts.
+
+### ⚠️ Limitations
+- **Sample Size:** The dataset contains only 200 records, which may not be statistically significant for long-term municipal planning.
+- **Granularity:** The lack of specific sub-locality data or GPS coordinates prevents deep-dive spatial analysis into specific neighborhood hotspots.
+- **Temporal Scope:** The current analysis is limited to the date range present in the CSV, which may not capture annual seasonality (e.g., monsoon-related water logging).
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
