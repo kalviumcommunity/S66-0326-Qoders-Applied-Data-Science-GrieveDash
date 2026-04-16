@@ -602,6 +602,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Computing Basic Summary Statistics for Individual Columns
+
+Run the milestone demo script:
+
+```bash
+python scripts/pandas_summary_stats_demo.py
+```
+
+This script includes:
+- Basic numeric statistics (`mean`, `median`, `std`, `min`, `max`, `sum`, `count`)
+- Categorical statistics (`unique`, `nunique`)
+- Frequency distributions with `value_counts()`
+- Applied to specific individual columns
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
