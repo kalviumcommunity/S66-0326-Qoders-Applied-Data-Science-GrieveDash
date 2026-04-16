@@ -724,6 +724,15 @@ This milestone involves:
 
 ---
 
+## ✅ Milestone — Technology Orientation: What Is Machine Learning & Where It Is Used
+
+This milestone marks the transition from Data Analysis to Machine Learning:
+- Understanding the definition of Machine Learning (ML).
+- Identifying where ML is used in real-world applications.
+- Exploring how ML can be applied to the GrieveDash project for predictive insights.
+
+---
+
 ## 📈 Final Project Insights, Assumptions, and Limitations
 
 ### 💡 Key Insights
@@ -741,6 +750,22 @@ This milestone involves:
 - **Sample Size:** The dataset contains only 200 records, which may not be statistically significant for long-term municipal planning.
 - **Granularity:** The lack of specific sub-locality data or GPS coordinates prevents deep-dive spatial analysis into specific neighborhood hotspots.
 - **Temporal Scope:** The current analysis is limited to the date range present in the CSV, which may not capture annual seasonality (e.g., monsoon-related water logging).
+
+---
+
+## 🤖 Technology Orientation: Machine Learning Basics
+
+### 🧠 What Is Machine Learning?
+Machine Learning (ML) is a subfield of Artificial Intelligence (AI) that focuses on building systems that can **learn from data** and improve their performance over time without being explicitly programmed for every specific task. Instead of manual rules, ML algorithms identify patterns in large datasets to make predictions or decisions.
+
+### 🌎 Where Is Machine Learning Used?
+- **Healthcare:** Predictive diagnostics and personalized treatment plans.
+- **Finance:** Fraud detection, algorithmic trading, and credit scoring.
+- **E-commerce:** Recommendation systems (e.g., Netflix, Amazon).
+- **Urban Planning (GrieveDash context):**
+    - **Predictive Resolution:** Forecasting how long a grievance will take based on historical data.
+    - **Automatic Classification:** Categorizing complaints (garbage, water, etc.) using text analysis of descriptions.
+    - **Anomaly Detection:** Identifying unusual patterns in grievance filings that might indicate systematic failures.
 
 ---
 
