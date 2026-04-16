@@ -570,6 +570,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Identifying and Removing Duplicate Records
+
+Run the milestone demo script:
+
+```bash
+python scripts/pandas_duplicates_demo.py
+```
+
+This script includes:
+- Identifying duplicate rows with `duplicated()`
+- Removing duplicate records with `drop_duplicates()`
+- Handling duplicates based on specific columns (subset)
+- Using different keep strategies (first, last)
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
