@@ -682,6 +682,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Exploring Relationships Between Variables Using Scatter Plots
+
+Run the milestone demo script:
+
+```bash
+python scripts/matplotlib_scatter_plots_demo.py
+```
+
+This script includes:
+- Generating scatter plots with Matplotlib
+- Customizing point markers, colors, and transparency
+- Using Seaborn to visualize relationships with hue (categorical coloring)
+- Identifying correlations and patterns between variables
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
