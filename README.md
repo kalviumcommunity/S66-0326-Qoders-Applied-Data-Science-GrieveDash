@@ -555,6 +555,21 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Handling Missing Values Using Drop and Fill Strategies
+
+Run the milestone demo script:
+
+```bash
+python scripts/pandas_handle_missing_demo.py
+```
+
+This script includes:
+- Dropping missing values with `dropna()` (rows and columns)
+- Filling missing values with `fillna()`
+- Applying specific fill strategies based on data types
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
