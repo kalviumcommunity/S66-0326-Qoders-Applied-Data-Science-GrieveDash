@@ -650,6 +650,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Visualizing Data Distributions Using Boxplots
+
+Run the milestone demo script:
+
+```bash
+python scripts/matplotlib_boxplots_demo.py
+```
+
+This script includes:
+- Generating boxplots with Matplotlib to show quartiles and outliers
+- Using Seaborn to create categorical boxplots
+- Comparing numeric distributions across different categories
+- Customizing plot aesthetics and saving to `outputs/`
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
