@@ -666,6 +666,22 @@ This script includes:
 
 ---
 
+## ✅ Milestone — Identifying Trends Over Time Using Line Plots
+
+Run the milestone demo script:
+
+```bash
+python scripts/matplotlib_line_plots_demo.py
+```
+
+This script includes:
+- Processing time-series data with Pandas
+- Converting string dates to datetime objects
+- Aggregating data for trend analysis
+- Creating line plots with Matplotlib to visualize changes over time
+
+---
+
 ## 📓 Sprint Notebooks Overview
 
 All proof-of-work notebooks are stored in the `notebooks/` folder:
